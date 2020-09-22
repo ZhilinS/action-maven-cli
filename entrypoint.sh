@@ -1,9 +1,15 @@
-#!/bin/sh -l
+#!/bin/bash
 
 set -e
 
 echo "==========Starting Maven Commands=========="
 
-sh -c "mvn $1"
+if [[ -z $APP_DIR ]]; then
+    echo "APP_DIR env isn't set. Running in current directory"
+else
+    cd $APP_DIR
+fi
+
+sh -c "mvn $@"
 
 echo "==========Finished Maven Commands=========="
