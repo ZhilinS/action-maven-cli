@@ -1,4 +1,4 @@
-# GitHub Action for the Maven CLI
+# GitHub Action for the Maven CLI in monorepo projects
 
 Extends [project](https://github.com/xlui/action-maven-cli) that created a Maven action with JDK8/11/13 which is executed from the root of a project. This action adds availability to run maven CLI from particular directory, just set the environment variable called `APP_DIR` (by default it's the root of the container/project). Useful for mono-repo projects.
 
