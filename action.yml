@@ -2,7 +2,7 @@ name: 'Maven & JDK8+ for monorepo projects'
 description: 'Use Maven CLI with JDK 8, 11, 13 from a custom directory'
 branding:
     icon: 'package'
-    color: 'green'
+    color: 'red'
 inputs:
     lifecycle:
         description: 'Maven lifecycles'
