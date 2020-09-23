@@ -1,6 +1,6 @@
 # GitHub Action for the Maven CLI
 
-Extends [project](https://github.com/xlui/action-maven-cli) that created a Maven action with JDK8/11/13 which is executed from the root of a project. This action adds availability to run maven CLI from particular directory, just set the environment variable called `APP_DIR` (by default it's `.`). Useful for mono-repo projects.
+Extends [project](https://github.com/xlui/action-maven-cli) that created a Maven action with JDK8/11/13 which is executed from the root of a project. This action adds availability to run maven CLI from particular directory, just set the environment variable called `APP_DIR` (by default it's the root of the container/project). Useful for mono-repo projects.
 
 The [origin project](https://github.com/LucaFeger/action-maven-cli) creates a Maven action with only JDK 8. But I'm writing java with JDK 11 and in the short future I'll keep using JDK 11. So I have forked the origin repository and add support for JDK 11.
 
