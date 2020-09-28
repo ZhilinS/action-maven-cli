@@ -10,6 +10,7 @@ else
     cd $APP_DIR
 fi
 
+echo "Executing command: mvn $@"
 sh -c "mvn $@"
 
 echo "==========Finished Maven Commands=========="
